@@ -28,7 +28,7 @@
       <div class="menu">
         <nav>
           <ul>
-            <li><a href="index.php">Inicio</a></li>
+            <li><a href="index.htlm">Inicio</a></li>
             <li><a href="zonascul.php">Lugares Culturales</a></li>
             <li><a href="zonasdepor.php">Lugares Deportivos</a></li>
             <li><a href="zonasturi.php">Lugares Turísticos</a></li>
