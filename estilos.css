@@ -1,0 +1,167 @@
+/* Reset de estilos para evitar problemas de margenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+/* Estilo general del body */
+body {
+    background-color: #33ffc7; /* Fondo verde claro */
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 10;
+}
+
+/* HEADER SUPERIOR */
+.header__superior {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Logo */
+.logo img {
+    width: 100px;
+}
+
+/* Titulo */
+.titulo {
+    transform: scale(1.1);
+    background: aqua;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Barra de búsqueda */
+.search input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid white; 
+    background-color: black;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.search button {
+    padding: 10px 20px;
+    background-color: #008f81;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+}
+
+.search button:hover {
+    background-color: #006f58;
+}
+
+/* Barra de menú */
+.container__menu {
+    width: 100%;
+    background: #008f81;
+    padding: 0px 20px;
+    z-index: 5;
+}
+
+.menu {
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: background-color 300ms ease, transform 300ms ease;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    transform: scale(1.1);
+    background: aqua;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#selected {
+    transform: scale(1.1);
+    background: #006f58;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo de contenido */
+main.contenido {
+    margin-top: 200px; /* Ajuste del margen para el contenido */
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* Centrado de imágenes */
+img.centered {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+/* Estilos para los encabezados principales */
+h1, h2 {
+    color: #003d34;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+/* Estilo para listas */
+ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+/* Estilo de párrafos */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Resaltar botones en enlaces */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #006f58;
+}
+
